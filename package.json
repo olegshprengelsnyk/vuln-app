@@ -50,7 +50,6 @@
     "vulnerabilities",
     "advisories",
     "audit",
-    "snyk",
     "scan",
     "docker",
     "container",
