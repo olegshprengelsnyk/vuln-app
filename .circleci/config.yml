@@ -54,9 +54,7 @@ jobs:
           name: Snyk Test
           command: |
             snyk version
-          args:
-            --severity-threshold=high
-            --fail-on=upgradable
+          args: -  --severity-threshold=high --fail-on=upgradable
  
 workflows:
   tsm-bootcamp:
